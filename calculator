@@ -1,0 +1,19 @@
+num1 = int(input("enter the first number"))
+print("num1")
+num2 = int(input("enter the second number"))
+print("num2")
+operator = input("so which operator you ant to use"+"+,-,*,%,/")
+print("operator")
+if operator =="+":
+    plus=(num2+num1)
+    print(plus)
+elif operator =="-":
+    minus=(num2-num1)
+    print(minus)
+elif operator =="*":
+    multiple=(num2*num1)
+    print(multiple)
+elif operator =="/":
+    div=(num1/num2)
+    print(div)
+elif num1 = 455 , num2= 255
